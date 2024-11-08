@@ -12,3 +12,6 @@ Any live cell with more than three live neighbors dies (overpopulation).
 
 
 Any dead cell with exactly three live neighbors becomes a live cell (reproduction).
+
+
+The file main.py controls most of the code, but desighn.in is a set of cordinates that say where to create live cells, forking and then changing those create a different pattern.
